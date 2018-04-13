@@ -1,0 +1,149 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HpeNetspare.master.cs" Inherits="HpeNetspare" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Home</title>
+
+    <meta charset="utf-8" />
+
+    <style type="text/css">
+        /*** Example target application ***/
+        html, body {
+            font-family: 'Metric', Arial;
+        }
+
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .app-content {
+            padding: 0 .875rem;
+            max-width: 75rem;
+            margin: auto;
+            box-sizing: border-box;
+        }
+
+        .ulstyle {
+            font-size:x-small;
+            font-family: Arial, Verdana;
+            color: #000000;
+        }
+
+        header, footer {
+            display: block;
+        }
+
+        html .-hpe--service .-hpe--width {
+            padding: 0 .875rem;
+            max-width: 75rem;
+        }
+
+        .my-extra-html {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: #fff;
+            line-height: 2;
+        }
+    </style>
+    <script type="text/javascript" src="dw_tooltips/js/dw_tooltip_c.js"></script>
+</head>
+
+<body>
+    <div id="hpe-global-header">
+    </div>
+
+    <div id="app-content" style="vertical-align:top;">
+        <h4>Home</h4>
+        <form id="form2" runat="server">
+            <table style="border: none;">
+                <tr>
+                    <td style="vertical-align: top; width:150px; border-top:5px black thick;">
+                        <div style="text-align: left; margin-top: 10px; vertical-align:top;" >
+                            <%-- <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">--%>
+
+                            <ul>
+                                <li><a href="index.htm" onmouseover="Tip('Some text')" onmouseout="UnTip()" class="ulstyle">Home
+                                </a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="networkvendorsearch.aspx" onmouseover="Tip('Some text')" onmouseout="UnTip()" class="ulstyle">Network Vendor Search
+                                </a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><a href="GeneratedReports.aspx" onmouseover="Tip('Some text')" onmouseout="UnTip()" class="ulstyle">Schedule Reports Current
+                                </a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="GeneratedPreviousReports.aspx" onmouseover="Tip('Some text')" onmouseout="UnTip()" class="ulstyle">Schedule Reports Previous Week
+                                </a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="AdminUser.aspx" onmouseover="Tip('Some text')" onmouseout="UnTip()" class="ulstyle">Admin Users
+                                </a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="JobReport.aspx" onmouseover="Tip('Some text')" onmouseout="UnTip()" class="ulstyle">Schedule Job Report
+                                </a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="Access.aspx" onmouseover="Tip('Some text')" onmouseout="UnTip()" class="ulstyle">Request Access 
+
+                                </a></li>
+                            </ul>
+
+
+
+                            <%--</asp:ContentPlaceHolder>--%>
+                        </div>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+<script language="javascript" type="text/javascript">
+    var firstA = document.getElementsByTagName('a');
+    var len = firstA.length;
+    for (var i = 0; i < firstA.length; i++) {
+        if (firstA[i].href.indexOf("http://www.hpe.com") > -1) {
+            firstA[i].href = "https://www.hpe.com";
+            firstA[i].onclick = null;
+            firstA[i].target = "_blank";
+            firstA[i].children(0).src = "images/hp_logo.png";
+            firstA[i].children(0).width = 138;
+            firstA[i].children(0).title = '';
+            break;
+        }
+    }
+</script>
+
+<div id="hpe-global-footer"></div>
+
+<script src="https://securecdn.now.hpe.com/hpnn/hpe-service.js?v=1468363189" data-header-service
+    data-header-el="#hpe-global-header" data-footer-el="#hpe-global-footer" data-analytics-enabled="true" type="text/javascript">
+</script>
+
+
+
+<%--<asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>--%>
+
+<%--<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>--%>
+</html>

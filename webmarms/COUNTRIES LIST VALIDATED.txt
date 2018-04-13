@@ -1,0 +1,108 @@
+
+--Russia
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'RU',2,7800,'',getdate()
+--CZEH
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'CZ',2,7800,'',getdate()
+--Hungary
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'HU',2,7800,'',getdate()
+--POLAND
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'PL',2,7800,'',getdate()
+--ARMENIA
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+----select 'AE',1,7791,'',getdate()
+----UNION
+--select 'AE',2,7800,'',getdate()
+--Georgia
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'GE',1,7791,'',getdate()
+--union
+--select 'GE',2,7800,'',getdate()
+
+--Kazakhstan
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'KA',2,7800,'',getdate()
+--union
+--select 'KA',1,7791,'',getdate()
+--Turkmenistan
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'TU',2,7800,'',getdate()
+--union
+--select 'TU',1,7791,'',getdate()
+----------------------------------------------------------------------------
+
+--Uzbekistan
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'UZ',2,7800,'',getdate()
+--union
+--select 'UZ',1,7791,'',getdate()
+
+--Belarus
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'BY',2,7800,'',getdate()
+--union
+--select 'BY',1,7799,'',getdate()
+
+--Bulgaria
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'BG',2,7800,'',getdate()
+--union
+--select 'BG',1,7799,'',getdate()
+
+--Croatia
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'HR',2,7800,'',getdate()
+--union
+--select 'HR',1,7799,'',getdate()
+
+--Romania
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'RO',2,7800,'',getdate()
+
+--Serbia
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'RS',2,7800,'',getdate()
+--union
+--select 'RS',1,7799,'',getdate()
+
+--Slovenia
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'SL',2,7800,'',getdate()
+--union
+--select 'SL',1,7799,'',getdate()
+
+--Ukraine
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'UR',2,7800,'',getdate()
+--union
+--select 'UR',1,7799,'',getdate()
+----------------------
+-------------------------------------------------------------------------------
+
+--Greece
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'GC',1,7798,'',getdate()
+
+--Angola
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'AO',1,7798,'',getdate()
+--UNION
+--select 'AO',2,7798,'',getdate()
+
+--Nigeria
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'NG',2,7798,'',getdate()
+--UNION
+--select 'NG',2,7787,'',getdate()
+
+--Kenya
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'NG',2,7798,'',getdate()
+--UNION
+--select 'NG',2,7787,'',getdate()
+
+--INSERT INTO tb_GIS_Education_Stream_Approval_Routing
+--select 'AS',2,7798,'',getdate()
